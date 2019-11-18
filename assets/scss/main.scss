@@ -1,14 +1,4 @@
-html {
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
-
-*,
-*:after,
-*:before {
-  margin: 0;
-  box-sizing: inherit;
-}
+@import "reset";
 
 ul {
   list-style: none;
