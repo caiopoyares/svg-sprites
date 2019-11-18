@@ -8,7 +8,7 @@ ul {
 nav {
   display: flex;
   padding: 1rem;
-  background-color: palevioletred;
+  background-color: #cf4647;
   color: palegoldenrod;
 }
 
@@ -16,9 +16,13 @@ nav .logo {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
+  font-size: 1.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
+  min-width: max-content;
 }
 
 nav div:nth-child(2) {
